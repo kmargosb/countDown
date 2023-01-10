@@ -1,0 +1,35 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 3rem;
+}
+h2 {
+  font-size: 1rem;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin: 1rem 10rem;
+  border-radius: 1rem;
+  background: #e0e0e0;
+  box-shadow: 32px 32px 64px #bebebe, -32px -32px 64px #ffffff;
+}
+
+.container-img,
+.countdown-container {
+  width: 50%;
+  text-align: center;
+  padding: 0 2rem;
+}
+.container-img > img {
+  width: 200px;
+  object-fit: cover;
+}
