@@ -39,6 +39,7 @@ body {
 }
 .countdown{
   display: flex;
+  justify-content: center;
 }
 .countdown div{
   flex-basis: 6.25rem;
